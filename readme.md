@@ -13,14 +13,15 @@ is to navigate a filesystem and encrypt files.
 
 This tracks with the purpose of *WannaCry*, as this is ransomeware. 
 
-The amount of *Xor* encryption also flags this as malware, as I believe *WannaCry* uses this encryption to obfuscate it's launcher and shell code before execution.
-
-https://blogs.blackberry.com/en/2017/06/threat-spotlight-inside-the-wannacry-attack
+The amount of *Xor* encryption also flags this as malware, as I believe *WannaCry* uses this encryption to obfuscate it's launcher and shell code before execution, as per Blackberry's threat spotlight. [source](https://blogs.blackberry.com/en/2017/06/threat-spotlight-inside-the-wannacry-attack)
 
 
 ## In Depth Calls
 
-For this portion, I will be comparing this ![analysis](https://www.secureworks.com/research/wcry-ransomware-analysis)
+For this portion, I will be comparing this [analysis](https://www.secureworks.com/research/wcry-ransomware-analysis) from Secureworks with the capa report.
+
+
+
 
 
 
