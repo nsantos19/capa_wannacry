@@ -55,15 +55,15 @@ We can see this registry edit here...
 From Blackberry's Report,
 
 >  s.wnry - ZIP archive containing Tor:
->         -  Data/Tor/ (empty)
->        -  Tor/libeay32.dll
->       -  Tor/libevent_core-2-0-5.dll
->      -  Tor/libgcc_s_sjlj-1.dll
->     -  Tor/ssleay32.dll
->    -  Tor/zlib1.dll
->   -  Tor/libevent-2-0-5.dll
->  -  Tor/libevent_extra-2-0-5.dll
-> -  Tor/libssp-0.dll
+>-  Data/Tor/ (empty)
+>-  Tor/libeay32.dll
+>-  Tor/libevent_core-2-0-5.dll
+>-  Tor/libgcc_s_sjlj-1.dll
+>-  Tor/ssleay32.dll
+>-  Tor/zlib1.dll
+>-  Tor/libevent-2-0-5.dll
+>-  Tor/libevent_extra-2-0-5.dll
+>-  Tor/libssp-0.dll
 >-  Tor/tor.exe
 >-  (Same hashes as files contained in the official troproject archive:
 >-  hxxps://dist.torproject(dot)org/torbrowser/6.5.1/tor-win32-0.2.9.10.zip)
