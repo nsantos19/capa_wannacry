@@ -2,7 +2,9 @@
 
 This is a quick report comparing  techincal reports of WannaCry with a generated Capa report.
 
-By analyzing this capa report, it is possible to determine specific techinal features. 
+By analyzing this capa report, it is possible to determine specific techinal features.
+
+For this report, I will be comparing this [Secure Works Analysis](https://www.secureworks.com/research/wcry-ransomware-analysis) from Secureworks  and this [Blackberry Analysis](https://blogs.blackberry.com/en/2017/06/threat-spotlight-inside-the-wannacry-attack) with the capa report.
 
 ## Overall Calls
 
@@ -13,14 +15,11 @@ is to navigate a filesystem and encrypt files.
 
 This tracks with the purpose of *WannaCry*, as this is ransomeware. 
 
-The amount of *Xor* encryption also flags this as malware, as I believe *WannaCry* uses this encryption to obfuscate it's launcher and shell code before execution, as per Blackberry's threat spotlight. [source](https://blogs.blackberry.com/en/2017/06/threat-spotlight-inside-the-wannacry-attack)
-
-
+The amount of *Xor* encryption also flags this as malware, as I believe *WannaCry* uses this encryption to obfuscate it's launcher and shell code before execution, as per Blackberry's threat spotlight. 
 ## In Depth Calls
 
 ### Encryption
 
-For this portion, I will be comparing this [Secure Works Analysis](https://www.secureworks.com/research/wcry-ransomware-analysis) from Secureworks with the capa report and this [Blackberry Analysis](https://blogs.blackberry.com/en/2017/06/threat-spotlight-inside-the-wannacry-attack).
 
 According to the Secureworks, the malware uses both RSA and AES encryption for the files, which can be see here.
 ![encryption](img/encryption.png)
