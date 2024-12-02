@@ -6,7 +6,7 @@ By analyzing this capa report, it is possible to determine specific techinal fea
 
 ## Overall Calls
 
-![Call Pie Chart]()
+![Call Pie Chart](img/pie.png)
 
 
 
