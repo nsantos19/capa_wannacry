@@ -6,6 +6,21 @@ By analyzing this capa report, it is possible to determine specific techinal fea
 
 For this report, I will be comparing this [Secure Works Analysis](https://www.secureworks.com/research/wcry-ransomware-analysis) from Secureworks  and this [Blackberry Analysis](https://blogs.blackberry.com/en/2017/06/threat-spotlight-inside-the-wannacry-attack) with the capa report.
 
+
+## Quick Confirmation Using Ghidra
+
+To confirm what the reports were describing, I used ghidra's *Defined String* tool to quickly search up 
+many of the strings that were hardcoded.
+
+I found the reporting done in the articles to be accurate, such as the bitcoin address being listed
+
+![Bitcoin](img/bitcoin.png)
+
+and the worm payload filename
+
+![wormName](img/wormName.png)
+
+
 ## Overall Calls
 
 ![Call Pie Chart](img/pie.png)
