@@ -38,7 +38,7 @@ We can see the use of an LCG [wikipedia to lcg](https://en.wikipedia.org/wiki/Li
 
 ### File Attributes
 
-Throughout the capa report, we see many calls to get file attributes. This can be used for a variet of purposes that are stated throughout the analysis. Some use cases could be getting file lengths, targeting specific file extensions, and finding whitelisted directory names.
+Throughout the capa report, we see many calls to get file attributes. This can be used for a variet of purposes that are stated throughout Securework's analysis. Some use cases could be getting file lengths, targeting specific file extensions, and finding whitelisted directory names.
 
 ### Registry Editing
 
@@ -70,7 +70,7 @@ From Blackberry's Report,
 
 The malware contains a zip archive containing TOR. We can see the zlib.dll found in the zip archive here...
 
-![zlib](zlib.png)
+![zlib](img/zlib.png)
 
 
 
